@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undisputed KstilMode</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">UNDISPUTED KSTILMODE</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#challenges">Challenges</a></li>
+          <li><a href="#education">Community</a></li>
+          <li><a href="#store">Store</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Section 1: About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>What is Undisputed KstilMode?</h2>
+        <p>
+          Undisputed KstilMode is the ultimate mindset and lifestyle created by <strong>Kstil</strong>.
+          It’s not only about personal development — it’s about transforming yourself into a lion
+          through the principles of <em>Knowledge, Strength, Tenacity, Inspiration, and Legacy</em>.
+        </p>
+        <h3>The 5 Pillars</h3>
+        <ul class="pillars">
+          <li><strong>Knowledge</strong> – Represented by Mike Ross</li>
+          <li><strong>Strength</strong> – Represented by Batman</li>
+          <li><strong>Tenacity</strong> – Represented by Chris Gardner</li>
+          <li><strong>Inspiration</strong> – Represented by Rocky Balboa</li>
+          <li><strong>Legacy</strong> – Represented by Ghost</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 2: Challenges & AI Portal -->
+    <section id="challenges" class="section dark-section">
+      <div class="container">
+        <h2>KstilMode Challenges</h2>
+        <p>
+          Step up to the challenge! Join our exclusive KstilMode challenges designed to help you
+          level up your personal development. Track your progress and receive AI-assisted coaching
+          for each of our 5 pillars.
+        </p>
+        <ul class="challenge-details">
+          <li>🔥 Daily & Weekly Challenges</li>
+          <li>🤖 AI-Powered Personalized Coaching</li>
+          <li>📊 Progress Tracking Dashboard</li>
+          <li>🏆 Exclusive Rewards & Recognition</li>
+        </ul>
+        <button class="cta-btn">Join the Challenge</button>
+      </div>
+    </section>
+
+    <!-- Section 3: Education & Community -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education & Community</h2>
+        <p>
+          Enhance your personal development with our curated content, courses, and a supportive
+          community. Learn and grow together in an environment built on accountability,
+          inspiration, and the pursuit of excellence.
+        </p>
+        <ul class="community-links">
+          <li>📚 Personal Growth Courses</li>
+          <li>🗣️ Community Forums & Discussions</li>
+          <li>🎥 Video Tutorials & Interviews</li>
+          <li>✍️ Blog & Resources</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 4: KstilMode Store -->
+    <section id="store" class="section dark-section">
+      <div class="container">
+        <h2>KstilMode Store</h2>
+        <p>
+          Discover exclusive merchandise and tools to reinforce your journey. Whether it's apparel,
+          accessories, or business resources, the KstilMode Store has everything to elevate your
+          lifestyle.
+        </p>
+        <div class="store-items">
+          <div class="store-item">
+            <img src="https://via.placeholder.com/150" alt="Product 1" />
+            <h4>Alpha Tee</h4>
+          </div>
+          <div class="store-item">
+            <img src="https://via.placeholder.com/150" alt="Product 2" />
+            <h4>Lion Mug</h4>
+          </div>
+          <div class="store-item">
+            <img src="https://via.placeholder.com/150" alt="Product 3" />
+            <h4>Legacy Planner</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Undisputed KstilMode. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  margin-left: 20px;
+}
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.nav-list li a:hover {
+  color: #cda45e; /* gold accent */
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+  background: #fff;
+}
+.dark-section {
+  background: #222;
+  color: #fff;
+}
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cda45e;
+  display: inline-block;
+}
+.section p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Pillars List */
+.pillars {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.pillars li {
+  margin-bottom: 10px;
+}
+
+/* Challenges Details */
+.challenge-details {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.challenge-details li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* CTA Button */
+.cta-btn {
+  background: #cda45e; /* gold */
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.cta-btn:hover {
+  background: #a87c44;
+}
+
+/* Education & Community */
+.community-links {
+  list-style: square;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.community-links li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Store Section */
+.store-items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.store-item {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: calc(33% - 20px);
+}
+.store-item img {
+  max-width: 100%;
+  height: auto;
+}
+.store-item h4 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
